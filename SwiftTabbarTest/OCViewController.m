@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"OC页面";
+    NSLog(@"test");
 }
 
 - (void)didReceiveMemoryWarning {
