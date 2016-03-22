@@ -13,6 +13,15 @@
 		A3D40A3E1BF3359D00755E94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D40A3D1BF3359D00755E94 /* Images.xcassets */; };
 		A3D40A411BF3359D00755E94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D40A3F1BF3359D00755E94 /* LaunchScreen.xib */; };
 		A3D40A4D1BF3359D00755E94 /* SwiftTabbarTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A4C1BF3359D00755E94 /* SwiftTabbarTestTests.swift */; };
+		A3D40A571BF336E300755E94 /* NTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A561BF336E300755E94 /* NTViewController.swift */; };
+		A3D40A591BF3382200755E94 /* index.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A581BF3382200755E94 /* index.swift */; };
+		A3D40A5B1BF3383B00755E94 /* activityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A5A1BF3383B00755E94 /* activityInfo.swift */; };
+		A3D40A5D1BF3385000755E94 /* carDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A5C1BF3385000755E94 /* carDisplay.swift */; };
+		A3D40A5F1BF3386600755E94 /* personalCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A5E1BF3386600755E94 /* personalCenter.swift */; };
+		A3D40A631BF340F700755E94 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A621BF340F700755E94 /* OCViewController.m */; };
+		A3D40A691BF5B03500755E94 /* CharacterExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A681BF5B03500755E94 /* CharacterExt.swift */; };
+		A3D40A721BF5B2EA00755E94 /* IntExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A711BF5B2EA00755E94 /* IntExt.swift */; };
+		A3D40A761BF5B97700755E94 /* FullNamedProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D40A751BF5B97700755E94 /* FullNamedProtocal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,17 @@
 		A3D40A461BF3359D00755E94 /* SwiftTabbarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTabbarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D40A4B1BF3359D00755E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D40A4C1BF3359D00755E94 /* SwiftTabbarTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTabbarTestTests.swift; sourceTree = "<group>"; };
+		A3D40A561BF336E300755E94 /* NTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTViewController.swift; sourceTree = "<group>"; };
+		A3D40A581BF3382200755E94 /* index.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = index.swift; sourceTree = "<group>"; };
+		A3D40A5A1BF3383B00755E94 /* activityInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityInfo.swift; sourceTree = "<group>"; };
+		A3D40A5C1BF3385000755E94 /* carDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = carDisplay.swift; sourceTree = "<group>"; };
+		A3D40A5E1BF3386600755E94 /* personalCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personalCenter.swift; sourceTree = "<group>"; };
+		A3D40A601BF340F600755E94 /* SwiftTabbarTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTabbarTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3D40A611BF340F700755E94 /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		A3D40A621BF340F700755E94 /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		A3D40A681BF5B03500755E94 /* CharacterExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterExt.swift; sourceTree = "<group>"; };
+		A3D40A711BF5B2EA00755E94 /* IntExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExt.swift; sourceTree = "<group>"; };
+		A3D40A751BF5B97700755E94 /* FullNamedProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullNamedProtocal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +98,22 @@
 			isa = PBXGroup;
 			children = (
 				A3D40A361BF3359D00755E94 /* AppDelegate.swift */,
+				A3D40A561BF336E300755E94 /* NTViewController.swift */,
+				A3D40A5C1BF3385000755E94 /* carDisplay.swift */,
+				A3D40A5A1BF3383B00755E94 /* activityInfo.swift */,
+				A3D40A581BF3382200755E94 /* index.swift */,
+				A3D40A611BF340F700755E94 /* OCViewController.h */,
+				A3D40A621BF340F700755E94 /* OCViewController.m */,
 				A3D40A381BF3359D00755E94 /* ViewController.swift */,
+				A3D40A5E1BF3386600755E94 /* personalCenter.swift */,
+				A3D40A771BF5BCDB00755E94 /* OtherClasses */,
+				A3D40A741BF5B67E00755E94 /* Protocal */,
+				A3D40A6A1BF5B13E00755E94 /* Class extintion */,
 				A3D40A3A1BF3359D00755E94 /* Main.storyboard */,
 				A3D40A3D1BF3359D00755E94 /* Images.xcassets */,
 				A3D40A3F1BF3359D00755E94 /* LaunchScreen.xib */,
 				A3D40A341BF3359D00755E94 /* Supporting Files */,
+				A3D40A601BF340F600755E94 /* SwiftTabbarTest-Bridging-Header.h */,
 			);
 			path = SwiftTabbarTest;
 			sourceTree = "<group>";
@@ -110,6 +141,30 @@
 				A3D40A4B1BF3359D00755E94 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3D40A6A1BF5B13E00755E94 /* Class extintion */ = {
+			isa = PBXGroup;
+			children = (
+				A3D40A681BF5B03500755E94 /* CharacterExt.swift */,
+				A3D40A711BF5B2EA00755E94 /* IntExt.swift */,
+			);
+			name = "Class extintion";
+			sourceTree = "<group>";
+		};
+		A3D40A741BF5B67E00755E94 /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				A3D40A751BF5B97700755E94 /* FullNamedProtocal.swift */,
+			);
+			name = Protocal;
+			sourceTree = "<group>";
+		};
+		A3D40A771BF5BCDB00755E94 /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OtherClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +211,8 @@
 		A3D40A291BF3359D00755E94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = hanJianXin;
 				TargetAttributes = {
 					A3D40A301BF3359D00755E94 = {
@@ -212,8 +268,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D40A691BF5B03500755E94 /* CharacterExt.swift in Sources */,
+				A3D40A721BF5B2EA00755E94 /* IntExt.swift in Sources */,
 				A3D40A391BF3359D00755E94 /* ViewController.swift in Sources */,
+				A3D40A5D1BF3385000755E94 /* carDisplay.swift in Sources */,
+				A3D40A761BF5B97700755E94 /* FullNamedProtocal.swift in Sources */,
 				A3D40A371BF3359D00755E94 /* AppDelegate.swift in Sources */,
+				A3D40A591BF3382200755E94 /* index.swift in Sources */,
+				A3D40A5F1BF3386600755E94 /* personalCenter.swift in Sources */,
+				A3D40A571BF336E300755E94 /* NTViewController.swift in Sources */,
+				A3D40A631BF340F700755E94 /* OCViewController.m in Sources */,
+				A3D40A5B1BF3383B00755E94 /* activityInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +341,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -340,9 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftTabbarTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTabbarTest/SwiftTabbarTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +420,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftTabbarTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTabbarTest/SwiftTabbarTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -370,6 +443,7 @@
 				);
 				INFOPLIST_FILE = SwiftTabbarTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTabbarTest.app/SwiftTabbarTest";
 			};
@@ -385,6 +459,7 @@
 				);
 				INFOPLIST_FILE = SwiftTabbarTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTabbarTest.app/SwiftTabbarTest";
 			};
@@ -409,6 +484,7 @@
 				A3D40A521BF3359D00755E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D40A531BF3359D00755E94 /* Build configuration list for PBXNativeTarget "SwiftTabbarTestTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +493,7 @@
 				A3D40A551BF3359D00755E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

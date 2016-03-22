@@ -16,6 +16,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // 应用程序启动后
+        //.声明一个空视图
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.backgroundColor=UIColor.whiteColor()
+        //.导航背景颜色
+        UINavigationBar.appearance().barTintColor=UIColor.grayColor()
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(CGFloat(NSInteger.min),CGFloat(NSInteger.min)), forBarMetrics:UIBarMetrics.Default);
+        //.导航标题文字颜色
+        UINavigationBar.appearance().titleTextAttributes=NSDictionary(object:UIColor.whiteColor(), forKey:NSForegroundColorAttributeName) as? [String : AnyObject];
+        //.将状态栏变为白色
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent;
+        //.设置返回按钮颜色
+        UINavigationBar.appearance().tintColor=UIColor.whiteColor();
+        //.指定根视图
+        let rootView=NTViewController();
+        self.window!.rootViewController=rootView;
+        self.window!.makeKeyAndVisible();
+        //.初始化键盘插件
+        //let manage:IQKeyboardManager=IQKeyboardManager.sharedManager();
+        //manage.enable=true;
+        //manage.shouldResignOnTouchOutside=true;
+        //manage.shouldToolbarUsesTextFieldTintColor=true;
+        //manage.enableAutoToolbar=true;
         return true
     }
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  activityInfo.swift
 //  SwiftTabbarTest
 //
 //  Created by hanJianXin on 15/11/11.
@@ -8,11 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class activityInfo: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.blueColor()
+        self.title = "活动信息"
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,4 +26,5 @@ class ViewController: UIViewController {
     }
 
 }
+
 
