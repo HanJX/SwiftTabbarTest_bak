@@ -24,7 +24,7 @@ class index: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //    self.view.backgroundColor=UIColor.grayColor()
-        self.title = "首页"
+        self.title = "首页导航"
 
         btn=UIButton(frame:CGRectMake(110,80,100,20))
         btn!.backgroundColor=UIColor.redColor()
