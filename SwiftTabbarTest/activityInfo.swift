@@ -16,6 +16,7 @@ class activityInfo: UIViewController {
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.blueColor()
         self.title = "活动信息－试试"
+        print("我来了")
         
         
     }
